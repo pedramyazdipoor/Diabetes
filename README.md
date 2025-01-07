@@ -23,8 +23,8 @@ The interpolation process is done after clustering and calculation of phi matrix
 With this method weights are calculated all at once thanks to linear algebra.
 
 ### Results
-
-| Principle Components | Accuracy | Precision | Recall |
-|:------------------------------:|:---------------------:|:-------------:|
-| Exact Match                    |   66.56*             | 47.44         |
-|      F1                        |   87.31*             | 81.96         |
+I could get these results in the best scenario after applying PCA algorithm:
+accuracy---82.75
+Precision--81.32
+Recall-----78.4
+FPR--------8.97
