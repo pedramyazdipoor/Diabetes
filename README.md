@@ -26,7 +26,7 @@ The interpolation process is done after clustering and calculation of phi matrix
 With this method weights are calculated all at once thanks to linear algebra.
 
 ### Results
-I could get these results in the best scenario after applying PCA algorithm:
+I could get these results in the best scenario after applying PCA algorithm which are approximately same as the article:
 
 accuracy---82.75\
 Precision--81.32\
