@@ -2,6 +2,10 @@
 
 This project is a full implementation of this [article](https://doi.org/10.1016/j.jocs.2017.07.015).
 In this project I implemented a radial basis function neural network from scratch with python. 
+
+Available features are Number of pregnancies, Plasma glucose concentration, Diastolic blood pressure, Triceps skin fold thickness,
+2-H serum insulin, Body mass index, Diabetes pedigree function and Age.
+
 The weights of this neural network is calculated through interpolation rather than using gradient descent algorithm.
 
 ![image](https://github.com/user-attachments/assets/bff3169b-4961-49f2-8b98-84c12d2aa7b4)
