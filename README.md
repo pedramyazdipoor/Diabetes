@@ -10,6 +10,7 @@ The weights of this neural network is calculated through interpolation rather th
 The neurons in this network can be represented as clusters of data points. The article suggested to do clustering on our dataset using K-Means;
 However, it is essential to know the label of each centroid because of the interpolation process. So I used another algorithm called PAM and also tested its
 modified versions to do clustering faster. In contrast to K-Means, the centroid is chosen out of data points and it really exists!!
+The [Faster PAM](https://arxiv.org/abs/1810.05691) algorithm was proved to be 93 times faster in comparison to regular PAM in my experiments which is awesome!!!
 
 ![image](https://github.com/user-attachments/assets/b903daaf-7fad-4273-806d-af8136c4069f)
 
@@ -25,7 +26,7 @@ The interpolation process is done after clustering and calculation of phi matrix
 With this method weights are calculated all at once thanks to linear algebra.
 
 ### Results
-I could get these results in the best scenario after applying PCA algorithm:\
+I could get these results in the best scenario after applying PCA algorithm:
 
 accuracy---82.75\
 Precision--81.32\
