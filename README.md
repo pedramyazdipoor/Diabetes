@@ -11,7 +11,8 @@ The neurons in this network can be represented as clusters of data points. The a
 However, it is essential to know the label of each centroid because of the interpolation process. So I used another algorithm called PAM and also tested its
 modified versions to do clustering faster. In contrast to K-Means, the centroid is chosen out of data points and it really exists!!
 
-![image](https://github.com/user-attachments/assets/2ef4d74e-74d1-4f9d-87ea-d691097d2d53)
+![image](https://github.com/user-attachments/assets/b903daaf-7fad-4273-806d-af8136c4069f)
+
 
 The phi matrix was normalized like below in order to have more coverage over the multi-dimensional space:
 
