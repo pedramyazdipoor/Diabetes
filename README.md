@@ -12,9 +12,19 @@ modified versions to do clustering faster. In contrast to K-Means, the centroid 
 
 ![image](https://github.com/user-attachments/assets/2ef4d74e-74d1-4f9d-87ea-d691097d2d53)
 
-The phi matrix was normalized like below in order to have more coverage over the multi-dimensional space:\
+The phi matrix was normalized like below in order to have more coverage over the multi-dimensional space:
 
 ![image](https://github.com/user-attachments/assets/e69c2909-b754-46ce-9bad-b82c86b0378a)
 
-The interpolation process is done after clustering and calculation of phi matrix(and ofcourse knowing Z which is label assigned to centroids):\
+The interpolation process is done after clustering and calculation of phi matrix(and of course knowing Z which is label assigned to centroids):
+
 ![image](https://github.com/user-attachments/assets/d206a4bb-edde-4604-8240-10c2be0546de)
+
+With this method weights are calculated all at once thanks to linear algebra.
+
+### Results
+
+| Principle Components | Accuracy | Precision | Recall |
+|:------------------------------:|:---------------------:|:-------------:|
+| Exact Match                    |   66.56*             | 47.44         |
+|      F1                        |   87.31*             | 81.96         |
