@@ -2,12 +2,12 @@
 
 This project is a full implementation of this [article](https://doi.org/10.1016/j.jocs.2017.07.015).
 
-In this project I implemented a radial basis function neural network from scratch with python. 
+In this project I implemented a radial basis function neural network with one hidden layer from scratch. 
 
 Available features are Number of pregnancies, Plasma glucose concentration, Diastolic blood pressure, Triceps skin fold thickness,
 2-H serum insulin, Body mass index, Diabetes pedigree function and Age.
 
-The weights of this neural network is calculated through interpolation rather than using gradient descent algorithm.
+The weights of hidden layer is calculated through interpolation rather than using gradient descent algorithm.
 
 ![image](https://github.com/user-attachments/assets/bff3169b-4961-49f2-8b98-84c12d2aa7b4)
 
@@ -37,3 +37,10 @@ Accuracy---82.75\
 Precision--81.32\
 Recall-----78.4\
 FPR-------8.97
+
+## Contributions
+
+Implementing RBF neural network from scratch with python
+Using Faster PAM algorithm for clustering instead of K-Means
+Apllying PCA to reduce dimensionality of data
+Utilizing covariance matrix as a normalizer in phi calculations
