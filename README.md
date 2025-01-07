@@ -35,4 +35,4 @@ I could get these results in the best scenario after applying PCA algorithm whic
 accuracy---82.75\
 Precision--81.32\
 Recall-----78.4\
-FPR--------8.97
+FPR-------8.97
