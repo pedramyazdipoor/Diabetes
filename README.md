@@ -24,6 +24,7 @@ With this method weights are calculated all at once thanks to linear algebra.
 
 ### Results
 I could get these results in the best scenario after applying PCA algorithm:\
+
 accuracy---82.75\
 Precision--81.32\
 Recall-----78.4\
