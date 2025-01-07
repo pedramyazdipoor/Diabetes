@@ -13,5 +13,5 @@ modified versions to do clustering faster. In contrast to K-Means, the centroid 
 ![image](https://github.com/user-attachments/assets/2ef4d74e-74d1-4f9d-87ea-d691097d2d53)
 
 The phi matrix was normalized like below in order to have more coverage over the multi-dimensional space:\
-![image](https://github.com/user-attachments/assets/aaf0c2d8-153a-45b0-9961-252bfe11f84f)
+![image](https://github.com/user-attachments/assets/e69c2909-b754-46ce-9bad-b82c86b0378a)
 
