@@ -6,7 +6,7 @@ The weights of this neural network is calculated through interpolation rather th
 
 ![image](https://github.com/user-attachments/assets/c0acb15a-bae4-47d1-9174-f10d2c34ef95)
 
-The neurons in this network can be represented by a cluster of data points. The article suggested to do clustering on our dataset using K-Means;
+The neurons in this network can be represented as clusters of data points. The article suggested to do clustering on our dataset using K-Means;
 However, it is essential to know the label of each centroid because of interpolation process. So I used another algorithm called PAM and also tested its
 modified versions to do clustering faster. In contrast to K-Means, the centroid is chosen out of data points and it really exists!!
 
