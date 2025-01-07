@@ -1,6 +1,6 @@
 ## Gestational Diabetes Diagnosis
 
-This project is a full implementation of this [article](https://doi.org/10.1016/j.jocs.2017.07.015).
+This project is a full implementation of this [article](https://doi.org/10.1016/j.jocs.2017.07.015).\
 In this project I implemented a radial basis function neural network from scratch with python. 
 
 Available features are Number of pregnancies, Plasma glucose concentration, Diastolic blood pressure, Triceps skin fold thickness,
