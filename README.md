@@ -38,9 +38,9 @@ Precision--81.32\
 Recall-----78.4\
 FPR-------8.97
 
-## Contributions
+## My Contributions
 
-Implementing RBF neural network from scratch with python
-Using Faster PAM algorithm for clustering instead of K-Means
-Apllying PCA to reduce dimensionality of data
+Implementing RBF neural network from scratch with python\
+Using Faster PAM algorithm for clustering instead of K-Means\
+Apllying PCA to reduce dimensionality of data\
 Utilizing covariance matrix as a normalizer in phi calculations
