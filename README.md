@@ -42,5 +42,5 @@ FPR-------8.97
 
 Implementing RBF neural network from scratch with python\
 Using Faster PAM algorithm for clustering instead of K-Means\
-Apllying PCA to reduce dimensionality of data\
+Applying PCA to reduce dimensionality of data\
 Utilizing covariance matrix as a normalizer in phi calculations
